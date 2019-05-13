@@ -1,3 +1,11 @@
+#######################################################################
+# Autor: Paulo Vinícius Baleeiro Ferreira                             #
+# Script destinado a atualização automatizada de repositórios locais  #
+# Para utilização dos funcionários da JUMPI para o projeto Facilitame #
+#                                                                     #
+#######################################################################
+
+
 echo Iniciando o processo de atualização do GIT
 cd c:\
 cd projetos

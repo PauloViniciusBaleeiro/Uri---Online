@@ -6,8 +6,8 @@ echo Atualizando API Auth
 cd api_facilitame_auth
 git checkout master
 git pull
-echo Atualização concluída
 cd ..
+echo Atualização concluída
 
 echo Atualizando API BackOffice
 cd api_facilitame_backoffice

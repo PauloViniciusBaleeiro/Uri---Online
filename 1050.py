@@ -12,3 +12,6 @@ codes = {
 
 if ddd in codes:
     print(codes[ddd])
+
+else: 
+    print("DDD nao cadastrado")

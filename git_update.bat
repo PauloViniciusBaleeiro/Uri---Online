@@ -15,12 +15,16 @@ echo Atualizando API Auth
 cd api_facilitame_auth
 git checkout master
 git pull
+git checkout dev
+git pull
 cd ..
 echo Atualização concluída
 
 echo Atualizando API BackOffice
 cd api_facilitame_backoffice
 git checkout master
+git pull
+git checkout dev
 git pull
 cd ..
 echo Atualização concluída
@@ -29,12 +33,16 @@ echo Atualizando API Cliente
 cd api_facilitame_cliente
 git checkout master
 git pull
+git checkout dev
+git pull
 cd ..
 echo Atualização concluída
 
 echo Atualizando Postgre
 cd banco_facilitame_postgre
 git checkout master
+git pull
+git checkout dev
 git pull
 cd ..
 echo Atualização concluída
@@ -43,12 +51,16 @@ echo Atualizando Frontend Cadastro
 cd frontend_facilitame_cadastro
 git checkout master
 git pull
+git checkout dev
+git pull
 cd ..
 echo Atualização concluída
 
 echo Atualizando Frontend Cliente
 cd frontend_facilitame_cliente
 git checkout master
+git pull
+git checkout dev
 git pull
 cd ..
 echo Atualização concluída

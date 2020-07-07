@@ -1,12 +1,20 @@
 I = 0
-J = 1
+J1 = 1
+J2 = 2
+J3 = 3
 
 while (I <= 2):
-    print('I={:.1f} J={}'.format(I,J))
-    if ((J - I) == 3):
-        I = I + 0.2
-        J = 1 + I
+    i = I
+    print('variavel i', type(i))
+    print(i)
+    print('int', round(i, 1))
+    if(type(i) == 'int'):
+        print('inteiro')
+        print('I={} J={}'.format(int(i), int(J1 + i)))
+        print('I={} J={}'.format(int(i), int(J2 + i)))
+        print('I={} J={}'.format(int(i), int(J3 + i)))
     else:
-        J = int(J) 
-        J = J + I + 1 
-    
+        print('I={:.1f} J={:.1f}'.format(i, (J1 + i)))
+        print('I={:.1f} J={:.1f}'.format(i, (J2 + i)))
+        print('I={:.1f} J={:.1f}'.format(i, (J3 + i)))
+    I += 0.2

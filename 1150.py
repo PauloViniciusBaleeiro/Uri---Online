@@ -1,19 +1,19 @@
-numX = int(input())
-numY = int(input())
+x = int(input())
 
-while numY <= numX:
-  numY = int(input())
+z = int(input())
 
-count = 2
-aux = 1
-sum = numX
+while z < x:
+  z = int(input())
 
-while sum <= numY:
-  sum = sum + (numX + aux)
-  
-  if sum <= numY:
-    count = count + 1
-    aux = aux + 1
+count = 1
+n = x
 
+while x < z:
+  count = count + 1
+  n = n + x
+  print(n, z)
+  if n > z:
+    break
 
-print (count)
+print(count)
+
